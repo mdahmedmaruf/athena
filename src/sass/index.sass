@@ -1,6 +1,8 @@
 $headerFont: 'Yeseva One', cursive
 $bodyFont: 'Montserrat', sans-serif
 $brandBackground: linear-gradient(to right, #2AF598 , #009EFD)
+$brandColor: #1BD5BE
+$box-shadow: 0 8px 60px 0 rgba(32,168,111,.11),0 12px 90px 0 rgba(32,168,111,.11)
 
 body
   font-family: $bodyFont !important
@@ -82,6 +84,35 @@ h6
   background: #FFFFFF
   box-shadow: 0 8px 60px 0 rgba(32,168,111,.11),0 12px 90px 0 rgba(32,168,111,.11)
 
+.packages .card
+  min-height: 550px
+  border: 0
+  .card-header
+    h1
+      font-size: 50px
+  .divider-line
+    background: $brandColor
+    width: 60%
+    text-align: center
+    margin: auto
+  li
+    font-size: 20px
+    padding-bottom: 20px
+  .card-footer
+    display: none
+
+.packages 
+  .card
+    border: 4px  transparent
+
+.packages .card:hover
+  border: 4px solid $brandColor
+  box-shadow: $box-shadow
+  .divider-line
+    display: none
+  .card-footer
+    display: block
+
 .footer
   background: #FAFFFD
   
@@ -93,7 +124,7 @@ h6
   margin: auto
   padding: 10px
   background: white
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: $box-shadow
   input
     border: none
 

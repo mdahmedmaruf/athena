@@ -11,7 +11,6 @@ function App() {
         <Switch>
           <Route path="/" component={HomePage} exact />
         </Switch>
-      <Footer/>
     </Router>
   );
 }
