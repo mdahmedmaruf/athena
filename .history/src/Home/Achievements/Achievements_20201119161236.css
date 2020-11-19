@@ -1,0 +1,15 @@
+.our-achievements-section{
+     background-color: #FAFFFD;
+     margin-top:150px;
+}
+
+
+.achievement-title h3{
+    font-family:'Yeseva One';
+}
+.achievements-col{
+    width:450px;
+    height: 200px;
+
+}
+/* bg #FAFFFD*/

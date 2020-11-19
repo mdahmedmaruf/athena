@@ -1,0 +1,44 @@
+.our-achievements-section{
+     background-color: #FAFFFD;
+     margin-top:150px;
+}
+
+
+.achievement-title h3{
+    font-family:'Yeseva One';
+}
+.achievements-col{
+    background-color: rgb(58, 51, 51);
+    border:none;
+    padding: 20px 19px;
+    border-radius: 0px 35px 0px 35px
+}
+.achievements-col:hover{
+    background-image: linear-gradient(to right, #2AF598 , #009EFD);
+    opacity:1
+}
+.icons{
+    width: 55px;
+    margin-top:10px;
+}
+.achievements-col-3{
+    background:#ffffff;
+    border:none;
+    padding: 20px 19px;
+    border-radius: 0px 35px 0px 35px;
+    color:#5c5757;
+}
+.achievements-col-3.icons:hover{
+    background-image: linear-gradient(to right, #2AF598 , #009EFD);
+    color: #fff;
+}
+
+.icons-3{
+   width:55px;
+   margin-top:10px;
+}
+
+/*filter: brightness(600%);
+/* bg #FAFFFD*/
+/*background-image: linear-gradient(to right, #2AF598 , #009EFD); */
+

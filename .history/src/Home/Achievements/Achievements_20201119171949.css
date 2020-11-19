@@ -1,0 +1,92 @@
+.our-achievements-section{
+     background-color: #FAFFFD;
+     margin-top:150px;
+}
+
+
+.achievement-title h3{
+    font-family:'Yeseva One';
+}
+.achievements-col{
+    background-color: white;
+    border:none;
+    padding: 20px 19px;
+    border-radius: 0px 35px 0px 35px;
+    color:#5c5757;
+    box-shadow: 5px 5px 5px 5px #198bf7 ;
+}
+.achievements-col:hover{
+    background-image: linear-gradient(to right, #2AF598 , #009EFD);
+    opacity:1;
+    color: #fff;
+}
+.icons{
+    width: 55px;
+    margin-top:10px;
+    filter: brightness(45%);
+}
+.icons:hover{
+    filter: brightness(600%);
+}
+
+.achievements-col-1{
+    background:#ffffff;
+    border:none;
+    padding: 20px 19px;
+    border-radius: 35px 0px 35px 0px;
+    color:#5c5757;
+}
+.achievements-col-1:hover{
+    background-image: linear-gradient(to right, #2AF598 , #009EFD);
+    color: #fff;
+}
+.icons-1{
+   width:55px;
+   margin-top:10px;
+}
+.icons-1:hover{
+    filter: brightness(600%);
+}
+
+.achievements-col-2{
+    background:#ffffff;
+    border:none;
+    padding: 20px 19px;
+    border-radius: 35px 0px 35px 0px;
+    color:#5c5757;
+}
+.achievements-col-2:hover{
+    background-image: linear-gradient(to right, #2AF598 , #009EFD);
+    color: #fff;
+}
+.icons-2{
+   width:55px;
+   margin-top:10px;
+}
+.icons-2:hover{
+    filter: brightness(600%);
+}
+
+.achievements-col-3{
+    background:#ffffff;
+    border:none;
+    padding: 20px 19px;
+    border-radius: 0px 35px 0px 35px;
+    color:#5c5757;
+}
+.achievements-col-3:hover{
+    background-image: linear-gradient(to right, #2AF598 , #009EFD);
+    color: #fff;
+}
+.icons-3{
+   width:55px;
+   margin-top:10px;
+}
+.icons-3:hover{
+    filter: brightness(600%);
+}
+
+/*filter: brightness(600%);
+/* bg #FAFFFD*/
+/*background-image: linear-gradient(to right, #2AF598 , #009EFD); */
+
