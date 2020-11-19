@@ -87,35 +87,43 @@ h6
 .packages .card
   min-height: 550px
   border: 0
+
   .card-header
     h1
       font-size: 50px
+
   .divider-line
     background: $brandColor
     width: 60%
     text-align: center
     margin: auto
+
   li
     font-size: 20px
     padding-bottom: 20px
-  .card-footer
-    display: none
 
-.packages 
-  .card
-    border: 4px  transparent
+  .card-footer
+    opacity: 0
+
+.packages .card
+    border: 4px solid transparent
+    box-shadow: 0 8px 60px 0 rgba(32, 168, 111, 0.11), 0 12px 90px 0 rgba(32, 168, 111, 0.11)
+    transition: 500ms all cubic-bezier(0.4, 0, 0.2, 1)
+
 
 .packages .card:hover
   border: 4px solid $brandColor
   box-shadow: $box-shadow
+
   .divider-line
     display: none
+
   .card-footer
-    display: block
+    opacity: 1
 
 .footer
   background: #FAFFFD
-  
+
 .email-box
   width: 700px
   height: 70px
@@ -125,6 +133,7 @@ h6
   padding: 10px
   background: white
   box-shadow: $box-shadow
+
   input
     border: none
 
@@ -134,11 +143,15 @@ h6
   border-radius: 7px
   padding: 12px 30px
   border-left: 1px solid white
-  
+
 .footer-main
   img
     width: 150px
     height: 100px
+
+  ul
+    text-align: left
+
   li
     padding-bottom: 10px
 

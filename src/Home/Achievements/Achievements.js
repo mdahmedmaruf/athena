@@ -1,25 +1,25 @@
 import React from 'react';
-import { Col, Container, Row,Image} from 'react-bootstrap';
-import './Achievements.css';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import achievement from '../../images/achievement.png';
 import happyIcon from '../../images/happy.png';
 import projectComplete from '../../images/projectComplete.png';
-import achievement from '../../images/achievement.png';
 import runningProject from '../../images/runningProject.png';
+import './Achievements.css';
 
 const Achievements = () => {
-    
-    const paragraph =`It is a long established fact that a reader will be distracted by 
-    the readable content of a page when looking at its layout. The 
-    point of using Lorem Ipsum is that it has a more-or-less normal 
+
+    const paragraph =`It is a long established fact that a reader will be distracted by
+    the readable content of a page when looking at its layout. The
+    point of using Lorem Ipsum is that it has a more-or-less normal
     distribution of letter. `
-    
+
     return (
-        <div className='our-achievements-section'> 
+        <div className='our-achievements-section'>
            <Container className='mt-5 pt-5 pb-5'>
                <Row>
                    <Col sm={12} md={5} lg={5} xl={5}>
                        <div className='achievement-title pt-5 mt-3'>
-                           <h3>Our Achievements</h3>
+                           <h1>Our Achievements</h1>
                            <p className='description'>{paragraph}</p>
                        </div>
                    </Col>
@@ -71,14 +71,14 @@ const Achievements = () => {
                                              </div>
                                          </div>
                                      </Col>
-                                     
+
                                   </Row>
                               </Container>
                        </div>
                    </Col>
                </Row>
            </Container>
-            
+
         </div>
     );
 };

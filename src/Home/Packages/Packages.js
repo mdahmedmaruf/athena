@@ -25,15 +25,16 @@ const packageData = [
 
 const Packages = () => {
     return (
-        <div className="packages container mb-5">
-            <div className="card-deck">
+        <div className="packages container my-5">
+            <h1 className="text-center">Choose Your Dedicated Team</h1>
+            <div className="card-deck my-5 py-3">
                 {
                     packageData.map((item, index) =>
                         <div key={index} className="card text-center px-2 py-4">
                             <div className="card-header bg-white border-0">
                                 <h1 className="font-weight-bold">{item.price}</h1>
                                 <p>{item.criteria}</p>
-                                
+
                             <hr className="divider-line"></hr>
                             </div>
                             <div className="card-body">

@@ -1,17 +1,10 @@
-.stay-running-project-section{
-    
+.stay-running-project-section {
+	background-color: #fafffd;
 }
-.intro-section{
-   margin-top: 140px;
-   margin-left:100px;
+.intro-section {
+	margin-top: 140px;
+	margin-left: 30px;
 }
-.running-title{
-    font-family: 'Yeseva One';
-    font-size:2vw;
-    text-transform: uppercase;
-}
-.description{
-     color: gray;
-     font-family:'Montserrat, sans-serif';
-     font-size:17px;
+.running-title {
+	font-size: 43px;
 }
