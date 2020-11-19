@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Image, Nav, Navbar } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import logo from '../../images/logo.png';
 
@@ -9,7 +9,7 @@ const Header = () => {
       <Navbar bg="transparent" variant="light" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand> <img src={logo} alt="logo"/> </Navbar.Brand>
+            <Navbar.Brand> <Image src={logo} alt="logo" fluid /> </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

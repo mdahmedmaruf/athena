@@ -10,7 +10,7 @@ const Hero = () => {
                 <Row>
                     <Col sm={12} md={6} lg={6} xl={6}>
                     <Jumbotron className="bg-transparent">
-                        <h1>Florence <span>agency</span></h1>
+                        <h1>Florence <span>agency</span> </h1>
                         <p>
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
@@ -20,12 +20,12 @@ const Hero = () => {
                     </Jumbotron>
                     </Col>
                     <Col sm={12} md={6} lg={6} xl={6}>
-                        <Image src={heroimage} fluid />
+                        <Image src={heroimage} alt="bannerimage" fluid />
                     </Col>
                 </Row>
             </Container>
             <div className="studio-bottom">
-                <Image src={studiobotton} />
+                <Image src={studiobotton} alt="studio" fluid/>
             </div>
         </div>
     );

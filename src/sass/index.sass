@@ -39,26 +39,56 @@ h6
   padding: 12px 30px
   color: #FFFFFF !important
 
-.jumbotron
-  h1
-    font-size: 70px
-
-  p
-    margin: 50px 0
-
-
 .hero-section
+  .jumbotron
+    h1
+      font-size: 70px
+
+    p
+      margin: 50px 0
 
 .studio-bottom
   width: 550px
+  position: relative
 
-.studio-bottom
   img
-    width: 100%;
-    position: relative;
-    left: -120px;
-    top: -150px;
+    width: 100%
+    position: absolute
+    left: -120px
+    top: -120px
 
+.about-section
+  background-color: #FAFFFD
+  background-image: url("../images/about-bg-line.png")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom center
+
+  .jumbotron
+    h1
+      font-size: 50px
+
+.about-card
+  border-radius: 55px 0
+  transition: 500ms all cubic-bezier(.4,0,.2,1)
+
+  .about-card-image
+    width: 90px
+    margin: auto
+
+    img
+      width: 100%
+
+  .card-body
+    .card-title
+      font-size: 20px
+
+.about-card:hover
+  background: #FFFFFF
+  box-shadow: 0 8px 60px 0 rgba(32,168,111,.11),0 12px 90px 0 rgba(32,168,111,.11)
+
+
+// Responsive CSS
 @media (max-width: 980px)
   .jumbotron
     h1
