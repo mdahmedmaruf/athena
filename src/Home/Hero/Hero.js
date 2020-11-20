@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Image, Jumbotron, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import heroimage from '../../images/hero-img.png';
 import studiobotton from '../../images/studio-1.png';
 
@@ -15,7 +16,9 @@ const Hero = () => {
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
                         <p>
-                            <Button variant="custom">See Pricing</Button>
+                            <Link to="pricing">
+                                <Button to="pricing" variant="custom">See Pricing</Button>
+                            </Link>
                         </p>
                     </Jumbotron>
                     </Col>

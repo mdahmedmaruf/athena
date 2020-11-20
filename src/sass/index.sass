@@ -55,7 +55,7 @@ h6
   left: 0
   position: absolute
   display: block
-  z-index: 99999
+  z-index: -9
 
 .studio-bottom
   width: 550px
@@ -180,6 +180,24 @@ h6
   li
     margin-left: 1rem !important
 
+.team-image
+  border-radius: 60px 0
+  box-shadow: 0 8px 60px 0 rgba(32, 168, 111, 0.11), 0 12px 90px 0 rgba(32, 168, 111, 0.11)
+
+.contact-from
+  width: 70%
+  margin: auto
+
+  input
+    padding: 25px 25px !important
+    border-radius: 20px 0
+
+  textarea
+    border-radius: 20px 0
+
+.page-title
+  font-size: 50px
+
 // Responsive CSS
 @media (max-width: 1200px)
   .hero-section,
@@ -299,3 +317,9 @@ h6
 
     ul
       text-align: center
+
+  .contact-from
+    width: 90%
+
+  .page-title
+    font-size: 36px

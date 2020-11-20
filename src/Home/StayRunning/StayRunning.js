@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import projectWork from '../../images/wokingProjct.png';
 import './StayRunning.css';
 const StayRunning = () => {
@@ -20,7 +21,7 @@ const StayRunning = () => {
                          <div className='intro-section'>
                               <h1 className='running-title'>Stay Running &amp; Project</h1>
                               <p className='description mt-4 mb-5'>{paragraph}</p>
-                              <Button variant="custom">Contact us</Button>
+                              <Link to="contact"><Button variant="custom">Contact Us</Button></Link>
                          </div>
                     </Col>
                     <Col className="mobile-image" sm={12} md={6} lg={6} xl={6}>
