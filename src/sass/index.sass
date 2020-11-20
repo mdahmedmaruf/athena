@@ -84,6 +84,9 @@ h6
   background: #FFFFFF
   box-shadow: 0 8px 60px 0 rgba(32,168,111,.11),0 12px 90px 0 rgba(32,168,111,.11)
 
+.mobile-image
+  display: none
+
 .packages .card
   min-height: 550px
   border: 0
@@ -99,7 +102,7 @@ h6
     margin: auto
 
   li
-    font-size: 20px
+    font-size: 18px
     padding-bottom: 20px
 
   .card-footer
@@ -125,7 +128,7 @@ h6
   background: #FAFFFD
 
 .email-box
-  width: 700px
+  width: 55%
   height: 70px
   border: 1px solid white
   box-sizing: border-box
@@ -160,8 +163,120 @@ h6
     width: 25px
     color: grey
 
+.social-media
+  li
+    margin-left: 1rem !important
+
 // Responsive CSS
-@media (max-width: 980px)
-  .jumbotron
+@media (max-width: 1200px)
+  .hero-section,
+  .about-section
+    .jumbotron
+      h1
+        font-size: 60px
+
+  .running-title
+    font-size: 60px
+
+  .achievement-title
+    h1
+      font-size: 60px
+
+  .packages
+    h1
+      font-size: 60px
+
+  .footer-caption
+    h1
+      font-size: 60px
+
+@media (max-width: 991px)
+  .hero-section,
+  .about-section
+    .jumbotron
+      h1
+        font-size: 50px
+
+  .studio-bottom
+    display: none
+
+  .running-title
+    font-size: 50px
+
+  .achievement-title
     h1
       font-size: 50px
+
+  .packages
+    h1
+      font-size: 50px
+
+    .card-deck
+      .card
+        flex: auto
+        margin-bottom: 40px
+
+  .footer-caption
+    h1
+      font-size: 50px
+
+@media (max-width: 767px)
+  .ml-auto.navbar-nav
+    text-align: center
+    height: 100vh
+    align-items: center
+    justify-content: center
+    align-content: center
+
+
+  .hero-section,
+  .about-section
+    .jumbotron
+      h1
+        font-size: 36px
+
+  .running-title
+    font-size: 36px
+
+  .desktop-image
+    display: none
+
+  .intro-section
+    margin-top: 0
+
+  .achievement-title
+    padding-top: 0 !important
+    margin-top: 0 !important
+
+    h1
+      font-size: 36px
+
+    .description
+      margin-bottom: 40px
+
+  .packages
+    h1
+      font-size: 36px
+
+    .card
+      margin-bottom: 40px
+
+      .card-footer
+        opacity: 1
+
+  .email-box
+    width: 90%
+
+  .footer-caption
+    h1
+      font-size: 36px
+
+  .footer-main
+    margin-bottom: 0 !important
+    padding-bottom: 0 !important
+
+    div
+      width: 100%
+
+    ul
+      text-align: center

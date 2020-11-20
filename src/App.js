@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Footer from './Home/Footer/Footer';
 import Header from './Home/Header/Header';
 import HomePage from './Home/HomePage';
 import './sass/index.sass';

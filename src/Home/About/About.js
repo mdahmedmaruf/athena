@@ -16,7 +16,7 @@ const About = () => {
                 <Row>
                     {
                         aboutCard.map(about => (
-                            <Col sm={12} md={6} lg={3} xl={3}>
+                            <Col key={about.id} sm={12} md={6} lg={3} xl={3}>
                                 <AboutCard about={about} />
                             </Col>
                         ))

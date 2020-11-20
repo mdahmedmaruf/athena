@@ -13,7 +13,7 @@ const StayRunning = () => {
         <div className='stay-running-project-section py-5'>
             <Container>
                 <Row>
-                    <Col sm={12} md={6} lg={6} xl={6}>
+                    <Col className="desktop-image" sm={12} md={6} lg={6} xl={6}>
                       <Image src={projectWork} fluid/>
                     </Col>
                     <Col sm={12} md={6} lg={6} xl={6}>
@@ -22,6 +22,9 @@ const StayRunning = () => {
                               <p className='description mt-4 mb-5'>{paragraph}</p>
                               <Button variant="custom">Contact us</Button>
                          </div>
+                    </Col>
+                    <Col className="mobile-image" sm={12} md={6} lg={6} xl={6}>
+                      <Image src={projectWork} fluid/>
                     </Col>
                 </Row>
             </Container>
